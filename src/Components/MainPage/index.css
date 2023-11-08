@@ -1,0 +1,84 @@
+
+.MainPage{
+    font-family: "Ubuntu";
+    background-color: aliceblue;
+    height: 100vh;
+    
+}
+
+.bg-img{
+    background-image: url('E:\Multi_stepper\multi-step-form-main\assets\images\bg-sidebar-mobile.svg');
+    background-size: cover;
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+.steps-con{
+    display: flex;
+    gap: 15px;
+}
+.stepItem{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-con{
+    position: fixed;
+    
+    bottom: 0;
+    width: 95%;
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom_1{
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    width: 95%;
+    background-color: white;
+    text-align: right;
+}
+
+
+.bottom-btn{
+    background-color: #0b0559;
+    color: white;
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: "Ubuntu";
+}
+
+.stepItem-active{
+    background-color:#799c8d ;
+    /* border: 2px solid white */
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    font-weight: 500;
+    
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    color: grey;
+    cursor: pointer;
+}
